@@ -18,7 +18,7 @@ public class Fabonacci {
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Enter number for Fibonacci calculation:");
 		int num;
-                while((num = scanner.nextInt()) > 0) {
+                while((num = scanner.nextInt()) >= 0) {
                 System.out.printf("\n%1$s" + "\r\n", FabonacciCaliculation.Fibonacci(num));
                 }
 
